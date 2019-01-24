@@ -1,0 +1,8 @@
+"Board/Button.o"
+"Board/Checker.o"
+"Board/I2C.o"
+"Board/LCD.o"
+"Src/SysTick.o"
+"Src/main.o"
+"Src/system_stm32l0xx.o"
+"startup/startup_stm32l053xx.o"
