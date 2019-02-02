@@ -1,7 +1,8 @@
 /******************************************************************************
 * 	IC_Checker v2.0
 *
-* 	This program file is for testing capabilities of STML053R8T6 Nucleo64
+* 	This main file hosts program task schedule loop, several IC parameters,
+*	and test result display function.
 *
 * 	MCU: STM32L053R8
 *
@@ -37,7 +38,7 @@
 
 #define MASK_FAILURE 0x00000000
 #define MASK_74HC00 0x00000001
-#define MASK_74HC02	0x00000002
+#define MASK_74HC02 0x00000002
 #define MASK_74HC04 0x00000004
 #define MASK_74HC08 0x00000008
 #define MASK_74HC10 0x00000010
